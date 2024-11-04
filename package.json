@@ -1,0 +1,27 @@
+{
+  "name": "tauri-app-demo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri dev": "tauri dev",
+    "tauri add": "tauri add",
+    "tauri icon": "tauri icon",
+    "tauri build": "tauri build",
+    "tauri ios": "tauri dev ios"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-notification": "~2",
+    "@tauri-apps/plugin-shell": "^2",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1"
+  }
+}
